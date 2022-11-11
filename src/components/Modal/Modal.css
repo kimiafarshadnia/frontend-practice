@@ -1,0 +1,31 @@
+h3 {
+  margin-top: 10px;
+}
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #00000096;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modalContent {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 0.5rem;
+  height: 16rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .modalContent {
+    width: 50%;
+  }
+}
