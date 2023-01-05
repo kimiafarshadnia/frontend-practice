@@ -4,7 +4,6 @@ const Header = () => {
   return (
     <header>
       <Navigation />
-      {/* <h2>this is header</h2> */}
     </header>
   );
 };
