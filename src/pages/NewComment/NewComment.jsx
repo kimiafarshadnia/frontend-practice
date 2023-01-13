@@ -47,7 +47,7 @@ const NewComment = ({ history }) => {
         add comment
       </button> */}
       <button type="submit" className="button-add" onClick={postCommentHandler}>
-        add comment
+        Add post
       </button>
     </div>
   );
