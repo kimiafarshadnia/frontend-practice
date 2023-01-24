@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import { useEffect, useState } from "react";
 import { getAllComments } from "../../services/getAllCommentsServices";
 import { Link } from "react-router-dom";
-import Spinner from './../Spinner';
+import Spinner from '../Spinner';
 
 const CommentsList = () => {
   const [comments, setComments] = useState(null);
