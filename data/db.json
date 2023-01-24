@@ -1,34 +1,49 @@
 {
   "comments": [
-    {
-      "postId": 1,
-      "to": "/comment-2",
-      "id": 2,
-      "img": "public/images/plant1.png",
-      "name": "quo vero reiciendis velit similique earum",
-      "price": "$22",
-      "content": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
-    },
-    {
-      "postId": 1,
-      "id": 3,
-      "name": "odio adipisci rerum aut animi",
-      "price": "$54",
-      "content": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
-    },
-    {
-      "postId": 1,
-      "id": 4,
-      "name": "alias odio sit",
-      "price": "$10.5",
-      "content": "non et atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati"
-    },
-    {
-      "name": "kimia",
+    
+    { "id": 1,
+      "name": "Mother in Law’s Tongue",
       "price": "$32",
-      "content": "hello eshgham",
+      "light": "Full to the shade",
+      "irrigation": "Every 10 to 15 days",
       "postId": 10,
-      "id": 5
+      "explain":"Sansoria is one of the evergreen and permanent houseplants, whose spear-shaped leaves are one of its main features. The leaves have parallel lines and patterns and their height increases as the plant grows. This house flower plant is resistant to lack of water, which today can be seen in different models such as woven, painted and tubular Sansoria. This plant is easily propagated by its leaves."
+    },
+    { "id": 2,
+      "name": "Chinese Evergree",
+      "price": "$50",
+      "light": "indirect",
+      "irrigation": "once a week",
+      "postId": 20,
+      "explain":"This plant is one of the types of evergreen houseplants, with a short stem and spear-shaped leaves, the length of which is about 10 to 25 cm and its width is 10 to 15 cm. The spots on the leaves are different and usually follow a certain order. This ga is one of the apartment flowers resistant to shade and drought and its flowers will be white."
+    },
+    { "id": 3,
+      "name": "Swiss Cheese Plan",
+      "price": "$64",
+      "light": "Indirect and penumbra",
+      "irrigation": "Every 10 to 15 days",
+      "postId": 30,
+      "explain":"Fig leaves are evergreen and climbing houseplants. Deep cuts can be seen on the leaves of this broad-leaved flat flower. This flat flower has aerial roots through which it can lean around. At first, the leaves of these apartment flowers are heart-shaped, and the cuts become visible with age and over time. The color of the leaves is dark green and in the mature plant it can even reach 1 meter in length!"
+    },
+    { "id": 3,
+      "name": "Swiss Cheese Plan",
+      "price": "$64",
+      "light": "Indirect and penumbra",
+      "irrigation": "Every 10 to 15 days",
+      "postId": 30,
+      "explain":"Fig leaves are evergreen and climbing houseplants. Deep cuts can be seen on the leaves of this broad-leaved flat flower. This flat flower has aerial roots through which it can lean around. At first, the leaves of these apartment flowers are heart-shaped, and the cuts become visible with age and over time. The color of the leaves is dark green and in the mature plant it can even reach 1 meter in length!"
+    },
+    { "id": 3,
+      "name": "Swiss Cheese Plan",
+      "price": "$64",
+      "light": "Indirect and penumbra",
+      "irrigation": "Every 10 to 15 days",
+      "postId": 30,
+      "explain":"Fig leaves are evergreen and climbing houseplants. Deep cuts can be seen on the leaves of this broad-leaved flat flower. This flat flower has aerial roots through which it can lean around. At first, the leaves of these apartment flowers are heart-shaped, and the cuts become visible with age and over time. The color of the leaves is dark green and in the mature plant it can even reach 1 meter in length!"
     }
+
+
+
+    
   ]
 }

@@ -1,4 +1,3 @@
-import "./fullcomment.css";
 import { useEffect, useState } from "react";
 import { deleteComment } from "../../services/deleteCommentService";
 import { getOneComment } from "../../services/getOneCommentService";
@@ -39,27 +38,40 @@ const FullComment = ({ match, history }) => {
 
   if (fullComment) {
     commentDetail = (
-      <div className="fullcomment">
-        <div>
-          <img src={fullComment.img} alt="" srcset="" />
+      <div className="flex flex-col w-full p-3">
+        <div className="flex flex-col md:flex-row justify-start w-full mb-5">
+          <div className="w-full md:w-2/4">
+            <img src={fullComment.img} className="w-full rounded" alt="plant_image" />
+          </div>
+          <div className="w-full px-2 md:w-2/4 flex flex-col justify-start items-start">
+            <div className="flex mb-3">
+              <label className="capitalize font-medium mr-3">name :</label>
+              <p className="text-gray-700">{fullComment.name}</p>
+            </div>
+           
+            <div className="flex mb-3">
+              <label className="capitalize font-medium mr-3">price :</label>
+              <p className="text-gray-700">{fullComment.price}</p>
+            </div>
+
+            <div className="flex mb-3">
+              <label className="capitalize font-medium mr-3">light :</label>
+              <p className="text-gray-700">{fullComment.light}</p>
+            </div>
+           
+            <div className="flex mb-3">
+              <label className="capitalize font-medium mr-3">irrigation :</label>
+              <p className="text-gray-700">{fullComment.irrigation}</p>
+            </div>
+
+            <div className="mb-2">
+              <label className="capitalize font-medium ">explain :</label>
+              <p className="text-gray-700">{fullComment.explain}</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <label className="label">name :</label>
-          <p>{fullComment.name}</p>
-        </div>
-        <br />
-        <div>
-          <label className="label">price :</label>
-          <p>{fullComment.price}</p>
-        </div>
-        <br />
-        <div>
-          <label className="label">explain :</label>
-          <p className="explain-comment">{fullComment.content}</p>
-        </div>
-        <br />
-        <div className="position-button-delete">
-          <button className="button-delete" onClick={deleteHandler}>
+        <div className="w-full">
+          <button className="bg-red-600 hover:bg-red-700 transition ease-linear text-white font-medium px-1 py-2 rounded w-full" onClick={deleteHandler}>
             Delete
           </button>
         </div>

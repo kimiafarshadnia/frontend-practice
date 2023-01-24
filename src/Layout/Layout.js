@@ -1,13 +1,10 @@
 import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div className="childrenLayout">{children}</div>
-
-      <Footer />
+      <div className="m-auto my-8 p-3">{children}</div>
     </>
   );
 };

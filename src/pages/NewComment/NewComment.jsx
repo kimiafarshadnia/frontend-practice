@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./newcomment.css";
 import { toast } from "react-toastify";
 import { addNewComment } from "../../services/addNewCommentService";
 const NewComment = ({ history }) => {

@@ -1,7 +1,12 @@
 import CommentsList from "./../components/Comments/Comments";
 
 const HomePage = () => {
-  return <CommentsList />;
+  return (
+    <div>
+      
+      <CommentsList />
+    </div>
+  );
 };
 
 export default HomePage;
