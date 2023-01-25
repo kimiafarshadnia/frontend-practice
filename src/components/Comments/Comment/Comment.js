@@ -12,7 +12,7 @@ const Comment = ({ imagPlant, name, price, light, onClick, location, match }) =>
         <div className="w-full flex justify-between items-center">
           <div className="flex justify-between items-center mt-3 mb-4">
             <BiSun className="mr-2"/>
-            <p className="text-gray-700 text-xs md:text-base"> {light}</p>
+            <p className="text-gray-700 text-xs"> {light}</p>
           </div>
           <div className="flex justify-between items-center mt-3 mb-2">
             <p> {price}</p>
