@@ -3,6 +3,7 @@ import { toast } from "react-toastify";
 import { addNewComment } from "../../services/addNewCommentService";
 const NewComment = ({ history }) => {
   const [newComment, setNewComment] = useState({
+    imagPlant:"",
     name: "",
     price: "",
     light:"",
@@ -32,6 +33,13 @@ const NewComment = ({ history }) => {
 
   return (
     <div className="w-full">
+      <div className="flex flex-col md:flex-row justify-start items-center w-full">
+        <div className="flex flex-col mb-2 w-full">
+          <label className="capitalize font-medium mr-3">Image URL</label>
+          <input type="url" className="p-1 sm:p-2 border rounded focus-visible:border-green-400" name="imagPlant" onChange={changeHandler} />
+        </div>
+      </div>
+
       <div className="flex flex-col md:flex-row justify-center items-center w-full">
         <div className="flex flex-col mb-2 w-full md:w-2/4 md:mr-4">
           <label className="capitalize font-medium mr-3">name</label>
@@ -58,7 +66,7 @@ const NewComment = ({ history }) => {
 
       <div className="flex flex-col mb-5 w-full">
         <label className="capitalize font-medium mr-3">explain</label>
-        <textarea className="w-full  p-2 border roundedb focus-visible:border-green-400" name="explain" rows={4} onChange={changeHandler} />
+        <textarea className="w-full  p-2 border rounded focus-visible:border-green-400" name="explain" rows={4} onChange={changeHandler} />
       </div>
       
       <button type="submit" className="bg-green-600 hover:bg-green-700 transition ease-linear text-white font-medium px-1 py-2 rounded w-full" onClick={postCommentHandler}>

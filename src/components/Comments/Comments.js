@@ -40,7 +40,7 @@ const CommentsList = () => {
     if (comments && !error) {
       renderValue = comments.map((c) => (
         <Link to={`/comment/${c.id}`} key={c.id} >
-          <Comment img={c.img} name={c.name} price={c.price} light={c.light} />
+          <Comment imagPlant={c.imagPlant} name={c.name} price={c.price} light={c.light} />
         </Link>
       ));
     }
@@ -48,8 +48,8 @@ const CommentsList = () => {
     return renderValue;
   };
 
-  return <section>
-    <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+  return <section className="flex justify-center items-center">
+    <div className="w-80 sm:w-full grid gap-5 grid-cols-1 sm:grid-cols-3 md:grid-cols-3">
       {renderComments()}
     </div>
   </section>;

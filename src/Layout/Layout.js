@@ -4,7 +4,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div className="m-auto my-8 p-3">{children}</div>
+      <div className="m-auto my-8 p-3 md:p-8">{children}</div>
     </>
   );
 };

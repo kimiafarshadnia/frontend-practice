@@ -40,8 +40,8 @@ const FullComment = ({ match, history }) => {
     commentDetail = (
       <div className="flex flex-col w-full p-3">
         <div className="flex flex-col md:flex-row justify-start w-full mb-5">
-          <div className="w-full md:w-2/4">
-            <img src={fullComment.img} className="w-full rounded" alt="plant_image" />
+          <div className="w-full md:w-2/4 flex justify-center mb-4">
+            <img src={fullComment.imagPlant} className="w-80 h-80 rounded" alt="plant_image" />
           </div>
           <div className="w-full px-2 md:w-2/4 flex flex-col justify-start items-start">
             <div className="flex mb-3">
