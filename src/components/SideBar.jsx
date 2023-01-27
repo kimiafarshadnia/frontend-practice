@@ -2,17 +2,23 @@ import { NavLink } from "react-router-dom";
 const SideBar = () => {
   return (
     <aside>
-      <ul className="aside">
+      <ul className="flex justify-around items-center bg-slate-600">
         <li>
-          <NavLink to="/profile/dashboard" className={(navData)=> (navData.isActive ? "activeTab" : "")}>
+          <NavLink to="/accessorys/hat" className={(navData)=> (navData.isActive ? "activeTab" : "")}>
             {" "}
-            dashboard
+            Hat
           </NavLink>
         </li>
         <li>
-          <NavLink to="/profile/download" className={(navData)=> (navData.isActive ? "activeTab" : "")}>
+          <NavLink to="/accessorys/whip" className={(navData)=> (navData.isActive ? "activeTab" : "")}>
             {" "}
-            download
+            the whip
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/accessorys/gaiter" className={(navData)=> (navData.isActive ? "activeTab" : "")}>
+            {" "}
+            gaiter
           </NavLink>
         </li>
       </ul>
