@@ -7,8 +7,8 @@ function Accessorys() {
 
   return (
     <>
-      <SideBar/>
       <Slider/>
+      <SideBar/>
       <Outlet/>
     </>
   );

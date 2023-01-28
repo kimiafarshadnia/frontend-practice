@@ -10,22 +10,25 @@ import { Pagination, Navigation } from "swiper";
 
 const Slider = () => {
     return ( 
-        <div className="h-80 flex justify-center items-center py-4 px-3">
+        <div className="h-96 flex flex-col justify-center items-center mb-8 px-3">
+            <div className="text-white text-2xl sm:text-5xl font-medium my-4">
+                <h1>ACCESSORYS</h1>
+            </div>
             <Swiper
                 slidesPerView={2}
-                spaceBetween={20}
+                spaceBetween={2}
                 slidesPerGroup={2}
                 loop={true}
                 loopFillGroupWithBlank={true}
                 pagination={{
                 clickable: true,
                 }}
-                navigation={true}
+               
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/bf/cf/90/bfcf90a2b311a6a2cf091341dc77865a.jpg" className="rounded" alt="" />
+                    <img src="https://i.pinimg.com/564x/bf/cf/90/bfcf90a2b311a6a2cf091341dc77865a.jpg" className="w-full h-full rounded" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src="https://i.pinimg.com/564x/4e/0d/40/4e0d40d18d16409a54b9dc7281710b2c.jpg" alt="" />

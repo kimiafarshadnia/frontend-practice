@@ -5,7 +5,7 @@ const items = [
   { name: "Home", to: "/"},
   { name: "About us", to: "/about" },
   { name: "Accessorys", to: "/accessorys" },
-  { name: "blogs", to: "/blogs" },
+  { name: "Blogs", to: "/blogs" },
 ];
 
 
