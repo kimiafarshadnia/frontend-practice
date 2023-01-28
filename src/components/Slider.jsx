@@ -12,9 +12,9 @@ const Slider = () => {
     return ( 
         <div className="h-80 flex justify-center items-center py-4 px-3">
             <Swiper
-                slidesPerView={3}
+                slidesPerView={2}
                 spaceBetween={20}
-                slidesPerGroup={3}
+                slidesPerGroup={2}
                 loop={true}
                 loopFillGroupWithBlank={true}
                 pagination={{
@@ -25,32 +25,26 @@ const Slider = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/4f/09/a6/4f09a662ecac3abf856ecd281958c8d7.jpg" className="w-full h-full" alt="" />
+                    <img src="https://i.pinimg.com/564x/bf/cf/90/bfcf90a2b311a6a2cf091341dc77865a.jpg" className="rounded" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/44/f1/73/44f173853b2a1671e7c5e3b5243a10d1.jpg" alt="" />
+                    <img src="https://i.pinimg.com/564x/4e/0d/40/4e0d40d18d16409a54b9dc7281710b2c.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/8e/4d/d6/8e4dd65526f19d76f8f0ee9c6866aa21.jpg" alt="" />
+                    <img src="https://i.pinimg.com/564x/b9/28/4c/b9284c1693235884ef500530f4615edc.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/84/bf/ec/84bfec37e33733dd3aafc8f5c87ad4d1.jpg" alt="" />
+                    <img src="https://i.pinimg.com/564x/72/c7/91/72c791ebcb6696fb3f0fe75d530a1946.jpg" alt="" />
                 </SwiperSlide>
+               
                 <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/4f/09/a6/4f09a662ecac3abf856ecd281958c8d7.jpg" alt="" />
+                    <img src="https://i.pinimg.com/564x/d0/a7/1d/d0a71d4476f9b29db6649291427d8e1b.jpg" alt="" />
                 </SwiperSlide>
+                
                 <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/44/f1/73/44f173853b2a1671e7c5e3b5243a10d1.jpg" alt="" />
+                    <img src="https://i.pinimg.com/564x/23/95/98/239598b39558449b43f9ac3dd3138166.jpg" alt="" />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/8e/4d/d6/8e4dd65526f19d76f8f0ee9c6866aa21.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/84/bf/ec/84bfec37e33733dd3aafc8f5c87ad4d1.jpg" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://i.pinimg.com/564x/84/bf/ec/84bfec37e33733dd3aafc8f5c87ad4d1.jpg" alt="" />
-                </SwiperSlide>
+              
             </Swiper>
         </div>
      );

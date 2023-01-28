@@ -1,18 +1,18 @@
 import SideBar from "../components/SideBar";
 import { Outlet} from "react-router";
+import Slider from './../components/Slider';
 
 
-function Profile() {
+function Accessorys() {
 
   return (
     <>
-      <p>my name is kimia farshadnia </p>
-
-      <SideBar />
+      <SideBar/>
+      <Slider/>
       <Outlet/>
     </>
   );
 }
 
-export default Profile;
+export default Accessorys;
   

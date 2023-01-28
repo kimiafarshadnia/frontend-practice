@@ -1,6 +1,10 @@
-function AboutUs(props) {
-  // console.log(props);
-  return <p>about us</p>;
+import AboutUs from "../components/AboutUs";
+
+function AboutUsPage(props) {
+  console.log(props);
+  return (
+    <AboutUs/>
+  );
 }
 
-export default AboutUs;
+export default AboutUsPage;

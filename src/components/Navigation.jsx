@@ -3,7 +3,7 @@ import { useState } from "react";
 import 'boxicons';
 const items = [
   { name: "Home", to: "/"},
-  { name: "About us", to: "/about us" },
+  { name: "About us", to: "/about" },
   { name: "Accessorys", to: "/accessorys" },
   { name: "blogs", to: "/blogs" },
 ];

@@ -3,7 +3,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-        <div className="w-full mx-auto bg-black h-screen">{children}</div>
+        <div className="w-full mx-auto py-8 bg-black h-screen">{children}</div>
      
     </>
   );
