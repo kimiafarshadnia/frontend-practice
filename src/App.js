@@ -6,11 +6,12 @@ import Accessorys from "./pages/Accessorys"
 import BlogPage from "./pages/BlogPage";
 import Blog from "./components/Blog";
 import PostPage from "./pages/PostPage";
-
+import NotFound from "./pages/NotFound";
 import Gaiter from "./components/Gaiter";
 import Hat from "./components/Hat";
 import Whip from './components/Whip';
 import SaddlePad from './components/SaddlePad';
+
 
 function App() {
     return ( 
@@ -20,7 +21,7 @@ function App() {
                 <Route path="/blogs/:id" element={<Blog/>} />
                 <Route path="/blogs" element={<BlogPage/>} /> 
                 <Route path="/about" element={<AboutUsPage/>} />
-                <Route path="/post/:id([0-9]+)?" element= {<PostPage/>} />
+                <Route path="/posts/:id([0-9]+)?" element= {<PostPage/>} />
                 <Route path="/accessorys/*" element={<Accessorys/>} >
                     <Route path="hat" element={<Hat/>} />
                     <Route path="gaiter" element={<Gaiter/>} />
@@ -28,7 +29,7 @@ function App() {
                     <Route path="saddlePad" element={<SaddlePad/>} />
                   
                 </Route>
-                
+                <Route path='*' element={<NotFound />} />
             </Routes> 
         </Layout>
     );

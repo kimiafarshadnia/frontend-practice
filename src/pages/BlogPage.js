@@ -15,7 +15,7 @@ const BlogPage = () => {
             
           <div className="">
               <div className="bg-white h-44 w-44 rounded flex justify-center items-center text-gray-700 hover:text-black hover:shadow hover:shadow-white mb-4"  key={item.to}>
-                <Link  to={{ pathname: item.to, search: "sort= name" }}>
+                <Link  to={item.to}>
                   {item.name}
                 </Link>
               </div>

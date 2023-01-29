@@ -12,7 +12,7 @@ const routes = [
   { path: "/about", component: AboutUs },
   { path: "/", component: HomePage },
   { path: "/accessorys", component: Accessorys },
-  { path: "/post/:id([0-9])?", component: PostPage },
+  { path: "/posts/:id([0-9])?", component: PostPage },
   { component: NotFound },
 ];
 
