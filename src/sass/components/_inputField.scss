@@ -1,0 +1,30 @@
+.wrapper {
+	position: relative;
+}
+
+.arrow {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	color: #696969d5;
+}
+
+.input {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #ffffff;
+	color: #696969d5;
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid #d1d1d1d1;
+	border-right: 0;
+	padding: 12px 20px;
+	text-align: left;
+	border-radius: 10px;
+	&:focus:not(:focus-visible) {
+		border: none;
+		outline: 2px solid #4949ff;
+		box-shadow: 0 0 10px #395dff86;
+	}
+}
