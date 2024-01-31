@@ -1,8 +1,9 @@
 import { useState } from "react";
 import DropDown from "./DropDown";
+import { InputChangeEvent } from "../types/event";
 import { DropDownItem } from "../types/dropdownItems";
-import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown, faChevronUp, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const InputField = () => {
     const [input, setInput] = useState("")
@@ -10,17 +11,17 @@ const InputField = () => {
     const [value, setValue] = useState<DropDownItem[]>([]);
 
 
-    const changeHandler = (e) => {
+    const changeHandler = (e: InputChangeEvent) => {
         setInput(e.target.value)
         setActive(false)
     }
 
     const selectedHandler = (selectedData: string) => {
         setInput(selectedData)
-        
+
     }
 
-    const submitHandler = (e) => {
+    const submitHandler = (e: React.SyntheticEvent) => {
         e.preventDefault();
         if (input) {
             setValue([...value, { label: input }])
@@ -28,20 +29,21 @@ const InputField = () => {
             setInput('')
         }
     }
-   
+
     return (
         <>
-            <form onSubmit={submitHandler}>
-                <div className="wrapper">
+            <form onSubmit={submitHandler} className="wrapper">
+                <div className="input">
                     <input
                         type="text"
                         value={input}
                         onChange={changeHandler}
                         onClick={() => setActive(!active)}
-                        className="input"
+                        className="inputField"
                     />
-                    <FontAwesomeIcon icon={active ? faChevronUp : faChevronDown} className="arrow"/>
+                    <FontAwesomeIcon icon={active ? faChevronUp : faChevronDown} className="inputArrow" />
                 </div>
+                <button type="submit" className="button"><FontAwesomeIcon icon={faPlus} /></button>
             </form>
             {active &&
                 <DropDown data={value} selectedHandler={selectedHandler} />
