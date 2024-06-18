@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تاکسی اینترنتی تپسی - اپلیکیشن درخواست خودرو و پیک | TAPSI</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous" />
+  <!--Fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/khadamat.css">
+  <link rel="stylesheet" href="styles/mediaQuerys/res-khadamat.css">
+</head>
+
+<body>
+  <nav class="
+  navbar navbar-expand-lg navbar-light
+  bg-light
+  start-0
+  end-0
+ pb-0
+ pb-md-2
+" style="z-index: 1200;">
+    <div class="container-fluid p-0 px-md-5 mx-md-5">
+      <a class="navbar-brand px-4 px-md-0" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="102" height="22"
+          viewBox="0 0 102 22">
+          <g fill-rule="evenodd">
+            <path fill="#000"
+              d="M102 5.946h-3.222v4.28H91.8v-4.28h-3.221v4.28h-5.637a1.878 1.878 0 0 1-1.879-1.872V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873 1.878 1.878 0 0 1-1.879-1.873V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873h-1.879V5.946h-3.22v4.28h-17.18v3.212h3.758v.535c0 2.656-2.167 4.816-4.831 4.816-2.664 0-4.832-2.16-4.832-4.816v-3.746H37.58v3.746c0 4.426 3.613 8.027 8.053 8.027 4.44 0 8.052-3.6 8.052-8.027v-.535H68.985a5.09 5.09 0 0 0 3.489-1.381 5.09 5.09 0 0 0 3.49 1.38 5.09 5.09 0 0 0 3.489-1.38 5.089 5.089 0 0 0 3.489 1.38H102V5.947z">
+            </path>
+            <path fill="#000" d="M84.702 19.297h3.854V22h3.304v-5.946h-7.158zM102 0h-6.561v2.973H102z"></path>
+            <path fill="#FF5B35" d="M26.842 11.297H10.737V5.946h16.105zM26.842 22H0v-5.351h26.842z"></path>
+          </g>
+        </svg>
+      </a>
+      <button class="navbar-toggler border-0 mx-4 mx-md-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <hr class="d-md-none m-0 w-100" />
+      <div class="px-4 collapse navbar-collapse justify-content-md-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link pe-3" aria-current="page" href="poshtibani.html">پشتیبانی</a>
+          <a class="nav-link pe-3" href="khadamatkasbokarha.html">خدمات کسب و کارها</a>
+          <a class="nav-link pe-3" href="#">فرصت های شغلی</a>
+          <a class="nav-link pe-3" href="#" tabindex="-1">وبلاگ</a>
+          <button class="btnorange rounded-3 py-2 px-4 d-none d-md-block">
+            دانلود تپسی
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="conrainer-fluid bgBanner pt6">
+
+    <h1 class="text-center text-white fw-bold">مزایای استفاده از پنل سازمانی تپسی</h1>
+
+    <div class="d-md-flex justify-content-center mt-5">
+      <div class="col-12 col-md-4 p-5 text-center text-white">
+        <h3>دسترسی به خودرو در تمام روزهای هفته و ۲۴ ساعت شبانه روز</h3>
+      </div>
+
+      <div class="col-12 col-md-4 p-5 text-center text-white">
+        <h3>سهولت در درخواست خودرو بدون نیاز به تماس تلفنی</h3>
+      </div>
+
+      <div class="col-12 col-md-4 p-5 text-center text-white">
+        <h3>انجام سفرهای روزانه با قیمت های به صرفه و اقتصادی</h3>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid bgmap d-none d-md-block">
+    <div class="container p-5">
+
+
+      <div class="d-flex flex-wrap">
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">تهران</p>
+          <span>Tehran</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">کرج</p>
+          <span>Karaj</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">مشهد</p>
+          <span>Mashhad</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">اصفهان</p>
+          <span>Isfahan</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">شیراز</p>
+          <span>Shiraz</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">ارومیه</p>
+          <span>Urmia</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">لاهیجان</p>
+          <span>Lahijan</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">رشت</p>
+          <span>Rasht</span>
+        </div>
+      </div>
+
+      <div class="d-flex flex-wrap mt-4">
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">تهران</p>
+          <span>Tehran</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">کرج</p>
+          <span>Karaj</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">مشهد</p>
+          <span>Mashhad</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">اصفهان</p>
+          <span>Isfahan</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">شیراز</p>
+          <span>Shiraz</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">ارومیه</p>
+          <span>Urmia</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">لاهیجان</p>
+          <span>Lahijan</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">رشت</p>
+          <span>Rasht</span>
+        </div>
+      </div>
+
+      <div class="d-flex flex-wrap mt-4">
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">قائم‌شهر</p>
+          <span>Qaem Shahr</span>
+        </div>
+
+        <div class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              me-5
+            ">
+          <p class="m-0 fw-bold">آمل</p>
+          <span>Amol</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--section 2-->
+
+  <div class="container-fluid">
+    <div class="container ">
+      <h1 class="my6">خدمات تپسی به شرکت ها و سازمان ها</h1>
+
+      <div class="d-flex flex-column-reverse flex-md-row justify-content-center ">
+        <div class="col-12 col-md-6">
+          <h2>پنل سازمانی تپسی</h2>
+          <br>
+          <p class="fontSize">پنل سازمانی تپسی، یک سامانه تحت وب است که به سادگی امکان درخواست خودرو برای تعداد نامحدود
+            از
+            کارکنان، نظارت بر سفرها، دریافت صورتحساب خودکار و گزارش‌گیری آنلاین را برای شرکت‌ها و سازمان‌ها فراهم آورده
+            است.</p>
+
+
+          <ul class="my-5 fontSize">
+            <li class="mb-3">قابلیت درخواست چندین خودرو به صورت همزمان</li>
+
+            <li class="mb-3">امکان انتخاب چند مقصد برای یک سفر</li>
+
+            <li class="mb-3">امکان استفاده از تمامی سرویس های تپسی</li>
+
+            <li class="mb-3">قابلیت مشاهده و دریافت گزارش سفرها</li>
+          </ul>
+
+          <div class=" row ">
+            <a href="#" class="col-12 col-md-4 btnoranges  p-md-2 text-center me-3 mb-3 mb-md-0">ثبت نام در پنل</a>
+
+            <a href="#" class="col-12 col-md-4 text-center p-md-2 btnoranges ">ورود به پنل سازمانی</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <img src="./images/img1.webp" class="w-100" alt="" srcset="">
+        </div>
+      </div>
+
+
+      <div class="d-flex flex-column flex-md-row justify-content-center">
+
+
+        <div class="col-12 col-md-6">
+          <img src="./images/img2.webp" class="w-100" alt="" srcset="">
+        </div>
+
+        <div class="col-12 col-md-6  ">
+          <h2>کدهای سفر سازمانی تپسی</h2>
+          <br>
+          <h4>کد اعتبار</h4>
+          <br>
+          <p class="fontSize">کسب و کارها و سازمان ها می‌توانند به تعداد و مبلغ مورد نظرشان، کد اعتبار تهیه کرده و در
+            اختیار اشخاص مدنظر، پرسنل و یا مشتریان خود قرار بدهند. با وارد کردن این کدها در قسمت "هدیه و تخفیف" در
+            اپلیکیشن تپسی، اعتبار کاربر به میزان مبلغ کد افزایش می‌یابد و می‌تواند از محل آن، از سرویس‌های مختلف تپسی
+            استفاده کند.</p>
+
+          <br>
+          <div class="row ms-2">
+            <a href="#" class="col-12 col-md-3 btnoranges  p-md-2 text-center me-3 mb-3 mb-md-0">خرید کد اعتبار</a>
+          </div>
+          <br>
+
+          <h4>کد تخفیف</h4>
+          <br>
+          <p class="fontSize">این کدها قابلیت سفارشی‌سازی دارند و می‌توانند به تعداد مورد نظر در اختیار کسب و کارها قرار
+            بگیرند. از مهم‌ترین ویژگی‌های این راهکار، می‌توان به موارد زیر اشاره کرد:</p>
+
+          <br>
+
+          <ul class="my-5 fontSize">
+            <li class="mb-3">قابلیت سفارشی‌سازی بر اساس مبدا، مقصد، زمان و تاریخ</li>
+
+            <li class="mb-3">امکان تعیین درصد و سقف مبلغ تخفیف</li>
+
+            <li class="mb-3">امکان اتصال به کیف پول</li>
+
+            <li class="mb-3">قابلیت دریافت گزارش سفرها در فواصل زمانی دلخواه</li>
+          </ul>
+
+          <p>
+            برای خرید کد تخفیف درخواست خود را به <a href="#">corporate@tapsi.cab</a> ارسال کرده یا با شماره <a
+              href="tel:1630">1630</a> داخلی4 در تماس باشید.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="mt-5">
+        <h1>آموزش نحوه ثبت نام در پنل سازمانی تپسی</h1>
+
+        <br>
+        <video width="100%" height="100%" controls="">
+          <source
+            src="https://tapsi-statics-bucket.s3.ir-thr-at1.arvanstorage.com/corporate/Corporate-Panel_How-to-Sign-Up.mp4"
+            type="video/mp4">
+        </video>
+      </div>
+
+
+      <div class="my-5">
+        <h1>دریافت اطلاعات بیشتر</h1>
+
+        <br>
+
+        <div class="d-flex  flex-column flex-md-row">
+
+          <div class="col-12 col-md-6">
+
+            <p class="fontSize">
+              برای دریافت اطلاعات بیشتر، مشخصات خود و سازمان خود را در این قسمت وارد کنید. همکاران ما در اولین زمان با
+              شما
+              تماس خواهند گرفت.
+            </p>
+
+            <br>
+
+            <p>همچنین شما می‌توانید از راه‌های زیر با ما در ارتباط باشید:</p>
+
+            <br>
+
+            <div class="d-sm-flex justify-content-between">
+
+              <div class="d-flex align-items-center mb-3 mb-sm-0">
+                <img src="./images/old-tel.svg" class="wtel me-2" alt="" srcset="">
+                <p class="fontSize p-0 m-0">شماره تماس:</p>
+              </div>
+
+
+              <p class="fontSize p-0 m-0 fw-bold">021-41630333</p>
+
+
+            </div>
+
+
+            <div class="d-sm-flex justify-content-between mt-4">
+
+              <div class="d-flex align-items-center mb-3 mb-sm-0">
+                <img src="./images/old-email.svg" class="wmail me-2" alt="" srcset="">
+                <p class="fontSize p-0 m-0">پست الکترونیک:</p>
+              </div>
+
+
+              <p class="fontSize p-0 m-0 fw-bold">corporate@tapsi.cab</p>
+
+
+            </div>
+          </div>
+
+          <div class="vline mx-5 d-none d-md-block"></div>
+
+          <div class="col-12 col-md-6">
+
+            <div class="justify-content-center mt-5 mt-md-0">
+
+              <div class="mb-3">
+                <label for="nameandfamily" class="fw-bold text-secondary mb-1">نام و نام خانوادگی:</label>
+                <input type="text" class="form-control border bginput rounded " name="" id="nameandfamily">
+              </div>
+
+
+              <div class="mb-3">
+                <label for="companyName" class="fw-bold text-secondary mb-1">نام سازمان:</label>
+                <input type="text" class="form-control border bginput rounded " name="" id="companyName">
+              </div>
+
+              <div class="mb-3">
+                <label for="phone" class="fw-bold text-secondary mb-1">شماره تماس:</label>
+                <input type="tel" class="form-control border bginput rounded" name="" id="phone">
+              </div>
+
+              <div class="">
+                <button type="submit" class="btnoranges formbtn p-2">ارسال مشخصات</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="containe-fluid bgblack">
+    <div class="container p-4 pb-0 d-md-flex justify-content-md-around">
+      <div class="d-block text-white fsSmal my-5">
+        <a class="navbar-brand px-4 px-md-0" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="102" height="22"
+            viewBox="0 0 102 22">
+            <g fill-rule="evenodd">
+              <path fill="#fff"
+                d="M102 5.946h-3.222v4.28H91.8v-4.28h-3.221v4.28h-5.637a1.878 1.878 0 0 1-1.879-1.872V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873 1.878 1.878 0 0 1-1.879-1.873V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873h-1.879V5.946h-3.22v4.28h-17.18v3.212h3.758v.535c0 2.656-2.167 4.816-4.831 4.816-2.664 0-4.832-2.16-4.832-4.816v-3.746H37.58v3.746c0 4.426 3.613 8.027 8.053 8.027 4.44 0 8.052-3.6 8.052-8.027v-.535H68.985a5.09 5.09 0 0 0 3.489-1.381 5.09 5.09 0 0 0 3.49 1.38 5.09 5.09 0 0 0 3.489-1.38 5.089 5.089 0 0 0 3.489 1.38H102V5.947z">
+              </path>
+              <path fill="#fff" d="M84.702 19.297h3.854V22h3.304v-5.946h-7.158zM102 0h-6.561v2.973H102z"></path>
+              <path fill="#fff" d="M26.842 11.297H10.737V5.946h16.105zM26.842 22H0v-5.351h26.842z"></path>
+            </g>
+          </svg>
+        </a>
+        <br />
+
+        <span class="mt-3">اپلیکیشن درخواست خودرو و پیک</span>
+        <span class="d-none d-md-block text-secondary">تمام حقوق مادی و معنوی این
+          <br />
+          وبسایت متعلق به تپسی است.
+        </span>
+      </div>
+
+      <div class="my-5">
+        <h5 class="fw-bold text-white">تپسی</h5>
+        <ul class="navbar-nav fsMedium">
+          <li>
+            <a href="http://" class="nav-link text-white">وبلاگ تپسی</a>
+          </li>
+          <li><a href="http://" class="nav-link text-white">فرصت شغلی</a></li>
+          <li>
+            <a href="poshtibani.html" class="nav-link text-white">تماس با ما</a>
+          </li>
+          <li>
+            <a href="http://" class="nav-link text-white">لوگو و هویت سازمانی</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="my-5">
+        <h5 class="fw-bold text-white">مسافران</h5>
+        <ul class="navbar-nav fsMedium">
+          <li>
+            <a href="http://" class="nav-link text-white">دانلود اپ مسافر</a>
+          </li>
+          <li>
+            <a href="http://" class="nav-link text-white">نسخه وب تپسی</a>
+          </li>
+          <li>
+            <a href="http://" class="nav-link text-white">پرسش‌های متداول مسافران</a>
+          </li>
+          <li>
+            <a href="http://" class="nav-link text-white">باشگاه مشتریان</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="my-5">
+        <h5 class="fw-bold text-white">رانندگان</h5>
+        <ul class="navbar-nav fsMedium">
+          <li>
+            <a href="http://" class="nav-link text-white">ثبت نام راننده تاکسی اینترنتی</a>
+          </li>
+          <li>
+            <a href="http://" class="nav-link text-white">دانلود اپ سفیر</a>
+          </li>
+          <li>
+            <a href="questions.html" class="nav-link text-white">پرسش‌های متداول سفیران</a>
+          </li>
+          <li>
+            <a href="http://" class="nav-link text-white">باشگاه سفیران</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="my-5">
+        <h5 class="fw-bold text-white">کسب و کارها</h5>
+        <ul class="navbar-nav fsMedium">
+          <li>
+            <a href="http://" class="nav-link text-white">پنل سازمانی تپسی</a>
+          </li>
+          <li>
+            <a href="buyoffers.html" class="nav-link text-white">خرید کد اعتبار و تخفیف</a>
+          </li>
+          <li>
+            <a href="http://" class="nav-link text-white">دریافت API</a>
+          </li>
+          <li>
+            <a href="http://" class="nav-link text-white">شرایط و قوانین</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="
+        d-flex
+        justify-content-center justify-content-md-start
+        ms-md-5
+        ps-md-5
+       
+      ">
+      <img src="./images/etehadiye.png" alt="" srcset="" />
+      <img src="./images/logo.png" alt="" srcset="" />
+    </div>
+
+    <div class="container p-4">
+      <p class="text-white ms-2">تپسی در شبکه‌های اجتماعی</p>
+
+      <ul class="nav d-flex justify-content-start">
+        <li class="me-5 ms-2">
+          <a href="http://"><i class="fab fa-facebook-f fs-4 text-dark Social"></i></a>
+        </li>
+        <li class="me-5">
+          <a href="http://"><i class="fab fa-instagram fs-4 text-dark Social"></i></a>
+        </li>
+        <li class="me-5">
+          <a href="http://"><i class="fab fa-twitter fs-4 text-dark Social"></i></a>
+        </li>
+        <li class="me-5">
+          <a href="http://"><i class="fab fa-linkedin-in fs-4 text-dark Social"></i></a>
+        </li>
+        <li>
+          <a href="http://"><i class="fab fa-telegram-plane fs-4 text-dark Social"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
