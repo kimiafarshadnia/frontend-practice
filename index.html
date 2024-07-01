@@ -28,10 +28,11 @@
   end-0
  pb-0
  pb-md-2
+ position-fixed
 " style="z-index: 1200;">
-    <div class="container p-0 px-md-5 mx-md-5">
-      <a class="navbar-brand px-4 px-md-0" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="102" height="22"
-          viewBox="0 0 102 22">
+    <div class="container w-100 ">
+      <a class="navbar-brand px-4 px-md-0" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="102"
+          height="22" viewBox="0 0 102 22">
           <g fill-rule="evenodd">
             <path fill="#000"
               d="M102 5.946h-3.222v4.28H91.8v-4.28h-3.221v4.28h-5.637a1.878 1.878 0 0 1-1.879-1.872V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873 1.878 1.878 0 0 1-1.879-1.873V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873h-1.879V5.946h-3.22v4.28h-17.18v3.212h3.758v.535c0 2.656-2.167 4.816-4.831 4.816-2.664 0-4.832-2.16-4.832-4.816v-3.746H37.58v3.746c0 4.426 3.613 8.027 8.053 8.027 4.44 0 8.052-3.6 8.052-8.027v-.535H68.985a5.09 5.09 0 0 0 3.489-1.381 5.09 5.09 0 0 0 3.49 1.38 5.09 5.09 0 0 0 3.489-1.38 5.089 5.089 0 0 0 3.489 1.38H102V5.947z">
@@ -41,6 +42,7 @@
           </g>
         </svg>
       </a>
+
       <button class="navbar-toggler border-0 mx-4 mx-md-0" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -63,53 +65,56 @@
   </nav>
   <!--header-->
   <div class="container-fluid bgHeader">
-    <div class="bgdiv text-white justify-content-center justify-content-md-end">
-      <h1 class="text-start fw-bold">تپسی</h1>
-      <p class="fsexplain">اپلیکیشن درخواست خودرو و پیک</p>
+    <div class="container w-100 d-flex justify-content-center justify-content-lg-between">
+      <div class="bgdiv text-white justify-content-center justify-content-md-end">
+        <h1 class="text-start fw-bold">تپسی</h1>
+        <p class="fsexplain">اپلیکیشن درخواست خودرو و پیک</p>
 
-      <div class="
-            d-block d-md-flex
-            justify-content-center justify-content-md-around
-            p-2
-          ">
-        <a href="#" class="btnwhite nav-link w-100 p-3 text-dark text-center m-1"><i class="fas fa-arrow-down"></i>
-          دانلود اپلیکیشن مسافران</a>
-        <a href="#" class="btnwhite nav-link w-100 p-3 text-dark text-center m-1"><i class="fas fa-arrow-down"></i>وب
-          اپلیکیشن مسافران</a>
+        <div class="
+              d-block d-md-flex
+              justify-content-center justify-content-md-around
+              p-2
+            ">
+          <a href="#" class="btnwhite nav-link w-100 p-3 text-dark text-center m-1"><i class="fas fa-arrow-down"></i>
+            دانلود اپلیکیشن مسافران</a>
+          <a href="#" class="btnwhite nav-link w-100 p-3 text-dark text-center m-1"><i class="fas fa-arrow-down"></i>وب
+            اپلیکیشن مسافران</a>
+        </div>
+        <div class="
+              p-2
+              d-block d-md-flex
+              justify-content-center justify-content-md-around
+            ">
+          <a href="#" class="
+                btnoutlinewhite
+                nav-link
+                w-100
+                p-3
+                m-1
+                text-white text-center
+              "><i class="fas fa-arrow-down"></i> دانلود اپلیکیشن رانندگان</a>
+          <a href="#" class="
+                btnoutlinewhite
+                nav-link
+                w-100
+                p-3
+                m-1
+                text-white text-center
+              "><i class="fas fa-car"></i> ثبت نام رانندگان</a>
+        </div>
       </div>
-      <div class="
-            p-2
-            d-block d-md-flex
-            justify-content-center justify-content-md-around
-          ">
-        <a href="#" class="
-              btnoutlinewhite
-              nav-link
-              w-100
-              p-3
-              m-1
-              text-white text-center
-            "><i class="fas fa-arrow-down"></i> دانلود اپلیکیشن رانندگان</a>
-        <a href="#" class="
-              btnoutlinewhite
-              nav-link
-              w-100
-              p-3
-              m-1
-              text-white text-center
-            "><i class="fas fa-car"></i> ثبت نام رانندگان</a>
+
+      <div class="imgPhone d-none d-lg-block">
+        <img src="./images/mockup-phone.webp" class=" w-100" alt="" srcset="" />
       </div>
     </div>
-
-    <img src="./images/mockup-phone.webp" class="imgPhone d-none d-lg-block position-absolute" alt="" srcset="" />
   </div>
 
 
-  <!--section one-->
-  <div class="container pTopSectionOne">
+  <!--section one-->ّّّ
+  <div class="container pt-5">
     <h2 class="fw-bold">سرویس های تپسی</h2>
     <div class="slideshow">
-
       <div class="d-flex justify-content-md-center align-items-center mt-5 pointer divscroll">
         <a href="#" id="item1" class="service active">
           <img src="./images/cc-classic.png" class="w-100" alt="" srcset="" />
@@ -349,61 +354,52 @@
         </div>
 
       </div>
-
-
-
     </div>
-
-
-
-
-
     <hr class="my-5" />
   </div>
 
   <!--section 2-->
-  <div class="container-fluid">
-    <div class="container mt6">
-      <div class="d-flex flex-column-reverse flex-md-row justify-content-around">
-        <div class="col-12 col-md-6 mt-4 mt-md-0">
-          <h2 class="fw-bold">خدمات تپسی ویژه کسب‌وکارها</h2>
-          <p class="mt-4 justifyText">
-            پنل سازمانی تپسی، یک سامانه تحت وب است که به سادگی امکان درخواست
-            هم‌زمان تعداد نامحدودی خودرو و پیک را برای کسب‌وکارها و سازمان‌ها
-            فراهم می‌کند. و با استفاده از آن می‌توانید ماموریت های درون‌شهری و
-            ارسال کالاهای خود را به سادگی مدیریت کنید.
-          </p>
 
-          <a href="#" class="infoSazmani d-flex align-items-end mb-5">اطلاعات بیشتر سرویس سازمانی &nbsp;<i
-              class="fas fa-angle-left"></i></a>
+  <div class="containe-fluid container-md">
+    <div class="d-flex flex-column-reverse flex-md-row justify-content-around">
+      <div class="col-12 col-md-6 mt-4 mt-md-0">
+        <h2 class="fw-bold">خدمات تپسی ویژه کسب‌وکارها</h2>
+        <p class="mt-4 justifyText">
+          پنل سازمانی تپسی، یک سامانه تحت وب است که به سادگی امکان درخواست
+          هم‌زمان تعداد نامحدودی خودرو و پیک را برای کسب‌وکارها و سازمان‌ها
+          فراهم می‌کند. و با استفاده از آن می‌توانید ماموریت های درون‌شهری و
+          ارسال کالاهای خود را به سادگی مدیریت کنید.
+        </p>
 
-          <a href="#" class="text-white btnorange p-3">ورود و ثبت نام پنل سازمانی</a>
-        </div>
+        <a href="#" class="infoSazmani d-flex align-items-end mb-5">اطلاعات بیشتر سرویس سازمانی &nbsp;<i
+            class="fas fa-angle-left"></i></a>
 
-        <div class="col-12 col-md-6">
-          <img src="./images/i-mac.webp" class="w-100" alt="" srcset="" />
-        </div>
+        <a href="#" class="text-white btnorange p-3">ورود و ثبت نام پنل سازمانی</a>
       </div>
 
-      <div class="d-flex flex-column flex-md-row justify-content-around mt6 pb-5">
-        <div class="col-12 col-md-6">
-          <img src="./images/macbook.webp" class="w-100 me-md-5 pe-md-5" alt="" srcset="" />
-        </div>
+      <div class="col-12 col-md-6">
+        <img src="./images/i-mac.webp" class="w-100" alt="" srcset="" />
+      </div>
+    </div>
 
-        <div class="col-12 col-md-6 mt-4 mt-md-0">
-          <h2 class="fw-bold">خرید کد اعتبار تپسی</h2>
-          <p class="mt-4 justifyText mb-5">
-            کاربران، کسب‌وکارها و سازمان‌ها می‌توانند به تعداد و مبلغ مورد
-            نظرشان، کد اعتبار یا کد تخفیف تپسی تهیه کرده، برای خود، پرسنل و یا
-            مشتریانشان استفاده کنند و از تخفیف‌های ویژه تپسی نیز بهره‌مند
-            شوند.
-            <br />
-            این کدها امکان سفارشی‌سازی بر اساس مبدا، مقصد، زمان، درصد و مبلغ
-            را دارند.
-          </p>
+    <div class="d-flex flex-column flex-md-row justify-content-around mt6 pb-5">
+      <div class="col-12 col-md-6">
+        <img src="./images/macbook.webp" class="w-100 me-md-5 pe-md-5" alt="" srcset="" />
+      </div>
 
-          <a href="#" class="text-white btnorange p-3">خرید کد اعتبار و تخفیف</a>
-        </div>
+      <div class="col-12 col-md-6 mt-4 mt-md-0">
+        <h2 class="fw-bold">خرید کد اعتبار تپسی</h2>
+        <p class="mt-4 justifyText mb-5">
+          کاربران، کسب‌وکارها و سازمان‌ها می‌توانند به تعداد و مبلغ مورد
+          نظرشان، کد اعتبار یا کد تخفیف تپسی تهیه کرده، برای خود، پرسنل و یا
+          مشتریانشان استفاده کنند و از تخفیف‌های ویژه تپسی نیز بهره‌مند
+          شوند.
+          <br />
+          این کدها امکان سفارشی‌سازی بر اساس مبدا، مقصد، زمان، درصد و مبلغ
+          را دارند.
+        </p>
+
+        <a href="#" class="text-white btnorange p-3">خرید کد اعتبار و تخفیف</a>
       </div>
     </div>
   </div>
