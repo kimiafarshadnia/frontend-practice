@@ -26,7 +26,7 @@ function slidshow() {
 
   setTimeout(function () {
     slidshow();
-  }, 5000);
+  }, 3000);
 }
 
 //hover on title's paralex

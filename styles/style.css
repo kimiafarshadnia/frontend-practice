@@ -109,6 +109,10 @@ svg:hover path:nth-child(3) {
   opacity: 1;
 }
 
+.pointer a:hover {
+  opacity: 1;
+}
+
 .pTopSectionOne {
   padding-top: 220px;
 }
