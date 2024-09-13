@@ -1,0 +1,36 @@
+{
+  "comments": [
+    
+    { "id": 1,
+      "imagPlant":"https://i.pinimg.com/564x/8f/a8/83/8fa8831b44ea4d92e88ddd0f2095acaa.jpg",
+      "name": "Mother in Law’s Tongue",
+      "price": "$32",
+      "light": "Full to the shade",
+      "irrigation": "Every 10 to 15 days",
+      "postId": 10,
+      "explain":"Sansoria is one of the evergreen and permanent houseplants, whose spear-shaped leaves are one of its main features. The leaves have parallel lines and patterns and their height increases as the plant grows. This house flower plant is resistant to lack of water, which today can be seen in different models such as woven, painted and tubular Sansoria. This plant is easily propagated by its leaves."
+    },
+    { "id": 2,
+      "imagPlant":"https://i.pinimg.com/564x/eb/d0/fd/ebd0fd8d86a2111e243c466b11e48303.jpg",
+      "name": "Chinese Evergree",
+      "price": "$50",
+      "light": "indirect",
+      "irrigation": "once a week",
+      "postId": 20,
+      "explain":"This plant is one of the types of evergreen houseplants, with a short stem and spear-shaped leaves, the length of which is about 10 to 25 cm and its width is 10 to 15 cm. The spots on the leaves are different and usually follow a certain order. This ga is one of the apartment flowers resistant to shade and drought and its flowers will be white."
+    },
+    { "id": 3,
+    "imagPlant":"https://i.pinimg.com/564x/71/a9/9d/71a99d6b3afca0e2b17a8adb827978fc.jpg",
+      "name": "Swiss Cheese Plan",
+      "price": "$64",
+      "light": "Indirect and penumbra",
+      "irrigation": "Every 10 to 15 days",
+      "postId": 30,
+      "explain":"Fig leaves are evergreen and climbing houseplants. Deep cuts can be seen on the leaves of this broad-leaved flat flower. This flat flower has aerial roots through which it can lean around. At first, the leaves of these apartment flowers are heart-shaped, and the cuts become visible with age and over time. The color of the leaves is dark green and in the mature plant it can even reach 1 meter in length!"
+    }
+
+
+
+    
+  ]
+}
