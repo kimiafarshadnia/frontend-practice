@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #9d9d9d;
+  border-radius: 5px;
+  padding: 4px 4px;
+}
+
+.radioInputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radioInput {
+  display: flex;
+  justify-content: center;
+}
+
+.btnAddTransAction {
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #0dc100;
+}

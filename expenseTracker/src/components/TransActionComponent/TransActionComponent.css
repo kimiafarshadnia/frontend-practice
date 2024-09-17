@@ -1,0 +1,37 @@
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border: 1px solid #98989d;
+  border-radius: 5px;
+}
+
+.tableTitle {
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #98989d;
+  padding: 10px;
+}
+
+.splitTransaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+@media screen and (min-width: 768px) {
+  table {
+    width: 70%;
+  }
+}
