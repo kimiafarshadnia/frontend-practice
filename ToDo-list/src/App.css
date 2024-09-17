@@ -1,0 +1,123 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.App h1 {
+  margin-bottom: 30px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+  border: 1px solid #9500ff;
+  border-radius: 5px;
+  padding: 19px;
+}
+
+.listStyle {
+  width: 100%;
+}
+
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  /* border: 1px solid rgb(128, 0, 255);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0; */
+}
+
+.todoUpdate-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.completed {
+  text-decoration: line-through;
+  color: rgb(155, 155, 155);
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 2rem;
+}
+
+input:focus {
+  border: 2px solid blueviolet;
+}
+
+button {
+  padding: 3px 5px;
+  border: 1px solid;
+  border-radius: 5px !important;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.btnAddTodo {
+  background-color: #14b8a6;
+  border: 2px solid #14b8a6;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btnUpdateTodo {
+  background-color: #ffffff;
+  border: 2px solid #0026ff;
+  color: #0026ff;
+  font-weight: bold;
+}
+
+button svg {
+  font-size: 1.2rem;
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+}
+
+.button-edit {
+  border-color: #8a2be2;
+  color: #9500ff;
+  display: flex;
+}
+
+.button-remove {
+  border-color: rgb(255, 0, 0);
+  color: #ff0000;
+  display: flex;
+}
+
+.button-completed {
+  border-color: #22c55e;
+  color: #22c55e;
+  display: flex;
+}
+
+.numberUnCompleted {
+  margin-right: 1rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(197, 134, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
