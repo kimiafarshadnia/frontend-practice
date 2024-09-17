@@ -1,0 +1,51 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.input {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	&Field {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #ffffff;
+		color: #696969d5;
+		width: 100%;
+		border: 1px solid #d1d1d1d1;
+		border-right: 0;
+		padding: 12px 20px;
+		text-align: left;
+		border-radius: 10px;
+		text-transform: capitalize;
+		&:focus:not(:focus-visible) {
+			border: none;
+			outline: 2px solid #4949ff;
+			box-shadow: 0 0 10px #395dff86;
+		}
+	}
+	&Arrow {
+		position: absolute;
+		right: 10px;
+		color: #696969d5;
+	}
+}
+
+.button {
+	background-color: #fff;
+	color: #696969d5;
+	border-radius: 10px;
+	transition: all 0.5s;
+	border: 1px solid #fff;
+	&:hover {
+		background-color: #d3d3d3;
+		color: #000;
+		border: 1px solid #d3d3d3;
+		transition: all 0.5s;
+	}
+}
